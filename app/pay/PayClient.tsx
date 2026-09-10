@@ -24,6 +24,9 @@ export function PayClient({
           <p className="text-xs font-semibold uppercase tracking-widest text-field mb-2">
             NextLvlPay Secure Checkout
           </p>
+          <p className="text-sm text-ink/60 mb-3">
+            Completing your <span className="font-semibold text-ink">Helix Bio Chem</span> order — NextLvlPay is our trusted payment partner.
+          </p>
           <p className="text-2xl font-bold text-ink">
             {(amount / 100).toLocaleString('en-US', {
               style: 'currency',
